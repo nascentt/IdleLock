@@ -1,6 +1,8 @@
 # IdleLock
 Kiosk tool to perform an action after the host is idle for a specific period of time.  Defaults to logging off the current user, but can run any executable, lock the machine, or display an alert.  Best paired with ForceAutoLogon and Guest users.
 
+![Screenshot](screenshot.png)
+
 # Autohotkey
 This is an AutoHotkey Script. To create an executable from it download AutoHotkey from autohotkey.com and use AHK2EXE to compile it into IdleLock.exe
 
