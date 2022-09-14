@@ -31,3 +31,6 @@ AlertMessage = Warning`nHost was idle.
 ; Instead of disabling by ini (which would mean the exe starts and closes) it'd really be better to have a gpo that disabled the scheduled task with item-level targetting, however this would mean splitting up the kiosk gpos to have idlelock separate.  
 ; Overriding disable mechanism. Allows us to disable and prevent IdleLock through ini configuration.  
 DisableIdleLock = 0  
+
+# Download
+To download IdleLock, [get the latest release.](https://github.com/nascentt/IdleLock/releases/latest/download/IdleLock.exe)
